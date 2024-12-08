@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cancer Prediction</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cancer Prediction Form</h1>
+        <form method="POST" action="/">
+            <label for="radius_mean">Radius Mean:</label>
+            <input type="text" name="radius_mean" required><br>
+        
+            <label for="texture_mean">Texture Mean:</label>
+            <input type="text" name="texture_mean" required><br>
+        
+            <label for="perimeter_mean">Perimeter Mean:</label>
+            <input type="text" name="perimeter_mean" required><br>
+        
+            <label for="area_mean">Area Mean:</label>
+            <input type="text" name="area_mean" required><br>
+        
+            <button type="submit">Predict</button>
+        </form>
+        
+    </div>
+</body>
+</html>
